@@ -3,6 +3,8 @@ orbs:
   node: circleci/node@1.1.6
 jobs:
   build-and-test:
+    environment:
+      name: alyson
     executor:
       name: node/default
     steps:
@@ -11,7 +13,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
-            - run: echo "Teste finalizado, name$ !"
+            - run: echo "Teste finalizado, $name !"
 workflows:
     build-and-test:
       jobs:
