@@ -1,4 +1,4 @@
-# Intro to CircleCI by Floyd May [![CircleCI](https://circleci.com/gh/floyd-may/circleci-intro.svg?style=svg)](https://circleci.com/gh/floyd-may/circleci-intro)
+# Intro to CircleCI by Alyson Franklin [![CircleCI](https://circleci.com/gh/alysonfranklin/CircleCI.svg?style=svg)](https://circleci.com/gh/alysonfranklin/CircleCI)
 
 This is a project to demonstrate features of CircleCI and how they integrate with GitHub.
 
