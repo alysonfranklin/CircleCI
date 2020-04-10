@@ -15,6 +15,6 @@ jobs:
             - run: npm test
             - run: echo "Teste finalizado, name$ !"
 workflows:
-    build-and-test:
+    build:
       jobs:
         - build-and-test
